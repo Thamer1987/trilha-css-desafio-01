@@ -1,26 +1,143 @@
-.logo{
-    background: linear-gradient(to bottom,#000000, #31A8DD);
+body{
+   background-color: black
 }
-
-.banner-content{
-
-}
-
-h1, h2, p {
+.banner{
     text-align: center;
-    color: #31A8DD;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid #33abdb;
+    margin-bottom: 75px;
+}
+#titulo{
+    color:#33abdb
+}
+#texto01{
+    color:white;
+}
+
+button{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #252525;
+    font-size: 25px;
+    border-radius: 50px;
+    border-color: #33abdb;
+    padding: 5px;
+    margin-bottom: 25px;
+    text-decoration: bold;
+    
+}
+
+button:hover{
+    border-color:6px darkblue;
+    background-color: rgb(80, 67, 196);
+    color: white;
+    font-style:bold;
+        
+}
+
+#course-content{
+    text-align: center;
+    border-bottom: 2px solid #33abdb;
+  
+    
 
 }
-button{
-    background-color: transparent;
-    border:2px solid #31A8DD;
-    font-family: serif, sans-serif;
-    font-size: 19px;
-    color: #31A8DD, transparent;
-    width: 326px;
-    height: 57px;
-    transition:all;
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    color: #33abdb;
 }
-button:hover{
-    background-color: lightslategray;
+
+.modules-list{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente, se necessário */
+    flex-direction: column;
+               
+}
+#texto02{
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0px 225px 60px 225px ;
+    
+}
+.module{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #33abdb;
+    border-radius: 50px;
+    width: 415px;
+    height: 45px;
+    padding: 16px 127px;
+    margin-bottom: 50px;
+    background-color: #252525;
+}
+span{
+    color: #33abdb;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+
+#transform-world{
+    width: 100%;
+    max-width: auto;
+    height: 500px;
+    background-image: url(/trilha-css-desafio-01-main/assets/images/woman-code.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: none;
+    border-top: 2px solid #33abdb;
+    
+}
+
+#texto03{
+    text-align: left;
+    width: 150px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 60px;
+    margin-left: 250px;
+    text-shadow: 5px 5px 5px #33abdb;
+}
+
+#professional-challenges{
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-top: 2px solid #33abdb;
+    
+}
+
+#texto04{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+footer{
+    text-align: center;
+    border: none;
+    border-top: 2px solid #33abdb;
+    color: white;
+}
+#rodape{
+    color:#33abdb;
+    text-decoration: underline;
 }
