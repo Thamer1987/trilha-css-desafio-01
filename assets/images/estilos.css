@@ -1,0 +1,26 @@
+.logo{
+    background: linear-gradient(to bottom,#000000, #31A8DD);
+}
+
+.banner-content{
+
+}
+
+h1, h2, p {
+    text-align: center;
+    color: #31A8DD;
+
+}
+button{
+    background-color: transparent;
+    border:2px solid #31A8DD;
+    font-family: serif, sans-serif;
+    font-size: 19px;
+    color: #31A8DD, transparent;
+    width: 326px;
+    height: 57px;
+    transition:all;
+}
+button:hover{
+    background-color: lightslategray;
+}
